@@ -14,7 +14,7 @@ extension API {
     
     static func getURLFor(lat: Double, lon: Double) -> String {
         
-        return "\(baseURLString)weather?lat=\(lat)&lon=\(lon)&exclude=minutely&appid\(key)&units=imperial"
+        return "\(baseURLString)onecall?lat=\(lat)&lon=\(lon)&exclude=minutely&appid\(key)&units=imperial"
         
         
     }
